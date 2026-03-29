@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Credentials — 절대 커밋하지 말 것
+client_secret.json
+credentials.json
+*.env
+.env*
+token.json
+
+# SQLite DB (로컬 상태)
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
